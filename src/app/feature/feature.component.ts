@@ -6,9 +6,14 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./feature.component.scss'],
 })
 export class FeaturesComponent implements OnInit {
+  isMenuOpen: boolean = false;
   constructor() {}
 
   ngOnInit() {
     console.log('[FeaturesComponent:ngOnInit]');
+  }
+
+  toggleMenu() {
+    this.isMenuOpen = !this.isMenuOpen;
   }
 }

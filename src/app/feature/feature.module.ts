@@ -14,6 +14,6 @@ import { FeaturesComponent } from './feature.component';
     FormsModule,
   ],
   declarations: [FeaturesComponent],
-  exports: [FeaturesComponent, RouterModule],
+  exports: [FeaturesComponent],
 })
 export class FeaturesModule {}
