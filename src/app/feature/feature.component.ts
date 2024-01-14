@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, ElementRef, HostListener, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-features',
@@ -6,14 +6,15 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./feature.component.scss'],
 })
 export class FeaturesComponent implements OnInit {
-  isMenuOpen: boolean = false;
-  constructor() {}
+  screenWidth = 0;
+
+  constructor(private el: ElementRef) {}
 
   ngOnInit() {
-    console.log('[FeaturesComponent:ngOnInit]');
+    this.getScreenWidth();
   }
 
-  toggleMenu() {
-    this.isMenuOpen = !this.isMenuOpen;
+  private getScreenWidth() {
+    this.screenWidth = window.innerWidth;
   }
 }

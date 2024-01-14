@@ -1,11 +1,29 @@
-<div class="navbar">
-  <div class="menu-toggle" (click)="toggleMenu()">
-    <i class="fa fa-bars"></i>
-  </div>
-  <ul class="nav-list" [ngClass]="{ open: isMenuOpen }">
-    <li><a routerLink="/">Home</a></li>
-    <li><a routerLink="/about">About</a></li>
-    <li><a routerLink="/">Products</a></li>
-    <li><a routerLink="/about">Contact</a></li>
+<nav class="nav">
+  <input type="checkbox" id="nav__checkbox" class="nav__checkbox" />
+  <label for="nav__checkbox" class="nav__toggle">
+    <img
+      src="assets/imgs/hum.png"
+      class="hamburger"
+      width="32px"
+      height="32px"
+    />
+
+    <img src="assets/imgs/close.png" class="close" width="32px" height="32px" />
+  </label>
+
+  <ul class="nav__menu">
+    <li>
+      <a href="#">
+        <img
+          class="logo"
+          src="assets/imgs/logo2.jpg"
+          width="154px"
+          height="112px"
+        />
+      </a>
+    </li>
+    <li><a href="#">Trang chủ</a></li>
+    <li><a href="#">Sản phẩm</a></li>
+    <li><a href="#">Liên hệ</a></li>
   </ul>
-</div>
+</nav>
