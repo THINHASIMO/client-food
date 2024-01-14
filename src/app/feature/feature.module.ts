@@ -4,10 +4,7 @@ import { RouterModule } from '@angular/router';
 import { featureRoutes } from './feature.router';
 
 @NgModule({
-  imports: [
-    RouterModule.forRoot(featureRoutes, { useHash: true }),
-    CommonModule,
-  ],
+  imports: [RouterModule.forRoot(featureRoutes), CommonModule],
   declarations: [],
   exports: [],
 })
