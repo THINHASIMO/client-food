@@ -31,3 +31,28 @@
   text-align: center;
   background-color: #f1f1f1;
 }
+
+.marquee-container {
+  width: 100%;
+  overflow: hidden;
+  padding: 10px; /* Thêm padding để tạo khoảng trắng xung quanh nội dung */
+  background-color: #ffffff; /* Màu nền trắng */
+}
+
+.marquee {
+  white-space: nowrap;
+  animation: marquee 15s linear infinite;
+  color: #000000; /* Màu chữ đen */
+  font-size: 20px; /* Kích thước chữ */
+  font-weight: bold; /* Chữ đậm */
+  text-shadow: 1px 1px 2px #cccccc; /* Đổ bóng chữ */
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
