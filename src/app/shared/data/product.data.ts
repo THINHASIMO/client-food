@@ -13,7 +13,7 @@ export const products = [
     name: 'Thịt tươi',
     title: 'Thịt gà',
     decription: 'Sản phẩm thịt cao cấp nguyên chất đảm bảo quy trình nuôi',
-    imageUrl: 'f1.jpg',
+    imageUrl: 'f2.jpg',
     contact: '0123456789',
     banking: 'ABC-68686868',
   },
