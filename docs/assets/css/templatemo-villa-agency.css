@@ -452,7 +452,7 @@ Header Style
 
 .header-area {
   position: relative;
-  background-color: lightblue;
+  background-color: brown;
   height: 104px;
   z-index: 100;
   -webkit-transition: all 0.5s ease 0s;
@@ -519,7 +519,7 @@ Header Style
   height: 40px;
   line-height: 40px;
   text-transform: capitalize;
-  color: #333; /* Màu chữ tối (đen) */
+  color: aliceblue; /* Màu chữ tối (đen) */
   -webkit-transition: color 0.4s ease; /* Chỉ thay đổi màu chữ trong transition */
   -moz-transition: color 0.4s ease;
   -o-transition: color 0.4s ease;
@@ -559,15 +559,15 @@ Header Style
 }
 
 .header-area .main-nav .nav li:hover a {
-  color: #f35525;
+  color: springgreen;
 }
 
 .header-area .main-nav .nav li a.active {
-  color: #f35525;
+  color: springgreen;
 }
 
 .background-header .main-nav .nav li a.active {
-  color: #f35525;
+  color: springgreen;
 }
 
 .header-area .main-nav .menu-trigger {
