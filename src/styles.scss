@@ -36,3 +36,14 @@ p {
   color: red;
   font-weight: 900;
 }
+a img {
+  width: 130px;
+  height: 96px;
+  border-radius: 16px;
+  margin-top: 4px;
+  background-color: yellow; /* Màu nền vàng cho logo */
+  box-shadow: 0 0 10px rgba(255, 215, 0, 0.8); /* Đổ bóng màu vàng */
+}
+
+
+
