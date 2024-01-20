@@ -452,8 +452,8 @@ Header Style
 
 .header-area {
   position: relative;
-  background-color: #fff;
-  height: 100px;
+  background-color: lightblue;
+  height: 104px;
   z-index: 100;
   -webkit-transition: all 0.5s ease 0s;
   -moz-transition: all 0.5s ease 0s;
@@ -519,11 +519,11 @@ Header Style
   height: 40px;
   line-height: 40px;
   text-transform: capitalize;
-  color: #1e1e1e;
-  -webkit-transition: all 0.4s ease 0s;
-  -moz-transition: all 0.4s ease 0s;
-  -o-transition: all 0.4s ease 0s;
-  transition: all 0.4s ease 0s;
+  color: #333; /* Màu chữ tối (đen) */
+  -webkit-transition: color 0.4s ease; /* Chỉ thay đổi màu chữ trong transition */
+  -moz-transition: color 0.4s ease;
+  -o-transition: color 0.4s ease;
+  transition: color 0.4s ease;
   border: transparent;
   letter-spacing: 0.25px;
 }
