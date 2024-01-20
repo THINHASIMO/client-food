@@ -13,4 +13,26 @@ font-family: 'Roboto', sans-serif;
 }
 .body-main {
   margin: 12px;
+  border-top: 3px solid gold;
+  padding: 12px;
+}
+.center {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+h1, h2, h3, h4, h5, h6 {
+  color: brown;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-weight: 700;
+}
+p {
+  font-size: 14px;
+  line-height: 28px;
+  color: dimgrey;
+}
+.text-id {
+  color: red;
+  font-weight: 900;
 }
