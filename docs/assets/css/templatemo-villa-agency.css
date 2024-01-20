@@ -1400,13 +1400,13 @@ footer.footer-no-gap {
 
 footer {
   margin-top: 150px;
-  background-color: #1e1e1e;
+  background-color: brown;
   min-height: 100px;
 }
 
 footer p {
   text-align: center;
-  line-height: 100px;
+  line-height: 42px;
   color: #fff;
   font-size: 16px;
   font-weight: 400;
@@ -1421,6 +1421,9 @@ footer p a {
 
 footer p a:hover {
   opacity: 0.75;
+}
+footer .container .row .col-lg-4 > ul > li {
+  color: white;
 }
 
 /*
