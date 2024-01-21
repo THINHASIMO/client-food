@@ -17,8 +17,16 @@
             [src]="'assets/images/foods/' + item.imageUrl"
             style="width: 230xp; height: 360px"
           />
-          <p class="">SĐT: {{ item.contact }}</p>
-          <p class="">BANK: {{ item.banking }}</p>
+          <p class="text-contact mg-12">
+            <i class="fa fa-phone"></i>
+            <a class="mg-12" [href]="'tel:' + item.contact">{{
+              item.contact
+            }}</a>
+          </p>
+          <p class="text-banking mg-12">
+            <i class="fa fa-envelope"></i
+            ><a class="mg-12">{{ item.banking }}</a>
+          </p>
         </div>
       </div>
     </ng-container>
