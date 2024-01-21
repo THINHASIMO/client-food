@@ -50,6 +50,11 @@
     color: #333; /* Màu chữ */
     letter-spacing: 1px; /* Khoảng cách giữa các ký tự */
     line-height: 1.5; /* Chiều cao của mỗi dòng */
+    overflow: hidden;
+    white-space: nowrap;
+    padding: 10px; /* Khoảng cách xung quanh */
+    background-color: #f4f4f4; /* Màu nền */
+    border-radius: 5px; /* Độ cong viền */
   }
 
   @keyframes marqueeAnimation {
@@ -71,6 +76,10 @@
 .banner {
   background-color: white; /* Đặt màu nền là trắng */
   padding: 10px; /* Tăng khoảng cách xung quanh hình ảnh */
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto; /* Để căn giữa ảnh trong container */
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Thêm đổ bóng nhẹ */
 }
 
