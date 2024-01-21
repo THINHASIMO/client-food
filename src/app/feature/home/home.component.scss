@@ -33,26 +33,49 @@
 }
 
 .marquee-container {
-  width: 100%;
-  overflow: hidden;
-  padding: 10px; /* Thêm padding để tạo khoảng trắng xung quanh nội dung */
-  background-color: #ffffff; /* Màu nền trắng */
+    overflow: hidden;
+    white-space: nowrap;
+    overflow: hidden;
+    background-color: #f4f4f4; /* Màu nền */
+    padding: 10px; /* Khoảng cách xung quanh */
+    border-radius: 5px; /* Độ cong viền */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Đổ bóng nhẹ */
+  }
+
+  .marquee {
+    font-size: 24px; /* Đặt kích thước chữ */
+    animation: marqueeAnimation 35s linear infinite; /* Thêm animation cho chữ chạy */
+    font-family: 'Arial', sans-serif; /* Font chữ */
+    font-weight: bold; /* Phồng chữ */
+    color: #333; /* Màu chữ */
+    letter-spacing: 1px; /* Khoảng cách giữa các ký tự */
+    line-height: 1.5; /* Chiều cao của mỗi dòng */
+  }
+
+  @keyframes marqueeAnimation {
+    0% { transform: translateX(100%); }
+    100% { transform: translateX(-100%); }
+  }
+
+@keyframes colorBlink {
+  0% { color: #ff0000; } /* Màu đỏ */
+  25% { color: #ff9900; } /* Màu cam */
+  50% { color: #ffff00; } /* Màu vàng */
+  75% { color: #00ff00; } /* Màu xanh lá cây */
+  100% { color: #0000ff; } /* Màu xanh dương */
 }
 
-.marquee {
-  white-space: nowrap;
-  animation: marquee 15s linear infinite;
-  color: #000000; /* Màu chữ đen */
-  font-size: 20px; /* Kích thước chữ */
-  font-weight: bold; /* Chữ đậm */
-  text-shadow: 1px 1px 2px #cccccc; /* Đổ bóng chữ */
+.text-id {
+  animation: colorBlink 10s infinite; /* 5s là thời gian mỗi chu kỳ nhấp nháy, infinite để lặp vô hạn */
+}
+.banner {
+  background-color: white; /* Đặt màu nền là trắng */
+  padding: 10px; /* Tăng khoảng cách xung quanh hình ảnh */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Thêm đổ bóng nhẹ */
 }
 
-@keyframes marquee {
-  0% {
-    transform: translateX(100%);
-  }
-  100% {
-    transform: translateX(-100%);
-  }
+.banner img {
+  width: 100%; /* Chiếm toàn bộ chiều rộng của div */
+  height: auto; /* Duy trì tỉ lệ khung hình */
+  display: block; /* Loại bỏ khoảng trắng dưới hình ảnh khi hiển thị dưới dạng inline */
 }
