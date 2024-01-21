@@ -5,7 +5,7 @@ import { featureRoutes } from './feature.router';
 import { SharedModule } from '../shared/shared.module';
 import { FormsModule } from '@angular/forms';
 import { FeaturesComponent } from './feature.component';
-
+import { DialogService } from 'primeng/dynamicdialog';
 @NgModule({
   imports: [
     RouterModule.forRoot(featureRoutes, { useHash: true }),
@@ -15,5 +15,6 @@ import { FeaturesComponent } from './feature.component';
   ],
   declarations: [FeaturesComponent],
   exports: [FeaturesComponent],
+  providers: [DialogService],
 })
 export class FeaturesModule {}

@@ -6,6 +6,8 @@
 @import 'assets/css/owl.css';
 @import 'assets/css/animate.css';
 @import 'https://unpkg.com/swiper@7/swiper-bundle.min.css';
+@import "primeng/resources/themes/lara-light-blue/theme.css";
+@import "primeng/resources/primeng.css";
 /* Trong file styles.css */
 body {
   /* Trong một component hoặc template của Angular */
@@ -54,7 +56,10 @@ a img {
 .mg-12 {
   margin: 12px;
 }
-
+.main-dialog {
+  padding: 18px;
+  margin: 18px;
+}
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
