@@ -5,7 +5,7 @@ export const products = [
     title: 'Thịt heo nam bộ',
     decription: 'Sản phẩm thịt cao cấp nguyên chất đảm bảo quy trình nuôi',
     imageUrl: 'f1.jpg',
-    contact: '0123456789',
+    contact: '0844445970',
     banking: 'ABC-68686868',
   },
   {
@@ -14,7 +14,7 @@ export const products = [
     title: 'Thịt gà',
     decription: 'Sản phẩm thịt cao cấp nguyên chất đảm bảo quy trình nuôi',
     imageUrl: 'f2.jpg',
-    contact: '0123456789',
+    contact: '0844445970',
     banking: 'ABC-68686868',
   },
   {
@@ -23,7 +23,7 @@ export const products = [
     title: 'Thịt bò',
     decription: 'Sản phẩm thịt cao cấp nguyên chất đảm bảo quy trình nuôi',
     imageUrl: 'f1.jpg',
-    contact: '0123456789',
+    contact: '0844445970',
     banking: 'ABC-68686868',
   },
   {
@@ -32,7 +32,7 @@ export const products = [
     title: 'Thịt trâu',
     decription: 'Sản phẩm thịt cao cấp nguyên chất đảm bảo quy trình nuôi',
     imageUrl: 'f1.jpg',
-    contact: '0123456789',
+    contact: '0844445970',
     banking: 'ABC-68686868',
   },
   {
@@ -41,7 +41,7 @@ export const products = [
     title: 'Thịt heo',
     decription: 'Sản phẩm thịt cao cấp nguyên chất đảm bảo quy trình nuôi',
     imageUrl: 'f1.jpg',
-    contact: '0123456789',
+    contact: '0844445970',
     banking: 'ABC-68686868',
   },
   {
@@ -50,7 +50,7 @@ export const products = [
     title: 'Thịt gà',
     decription: 'Sản phẩm thịt cao cấp nguyên chất đảm bảo quy trình nuôi',
     imageUrl: 'f1.jpg',
-    contact: '0123456789',
+    contact: '0844445970',
     banking: 'ABC-68686868',
   },
   {
@@ -59,7 +59,7 @@ export const products = [
     title: 'Thịt bò',
     decription: 'Sản phẩm thịt cao cấp nguyên chất đảm bảo quy trình nuôi',
     imageUrl: 'f1.jpg',
-    contact: '0123456789',
+    contact: '0844445970',
     banking: 'ABC-68686868',
   },
   {
@@ -68,7 +68,7 @@ export const products = [
     title: 'Thịt trâu',
     decription: 'Sản phẩm thịt cao cấp nguyên chất đảm bảo quy trình nuôi',
     imageUrl: 'f1.jpg',
-    contact: '0123456789',
+    contact: '0844445970',
     banking: 'ABC-68686868',
   },
   {
@@ -77,7 +77,7 @@ export const products = [
     title: 'Thịt heo',
     decription: 'Sản phẩm thịt cao cấp nguyên chất đảm bảo quy trình nuôi',
     imageUrl: 'f1.jpg',
-    contact: '0123456789',
+    contact: '0844445970',
     banking: 'ABC-68686868',
   },
   {
@@ -86,7 +86,7 @@ export const products = [
     title: 'Thịt gà',
     decription: 'Sản phẩm thịt cao cấp nguyên chất đảm bảo quy trình nuôi',
     imageUrl: 'f1.jpg',
-    contact: '0123456789',
+    contact: '0844445970',
     banking: 'ABC-68686868',
   },
   {
@@ -95,7 +95,7 @@ export const products = [
     title: 'Thịt bò',
     decription: 'Sản phẩm thịt cao cấp nguyên chất đảm bảo quy trình nuôi',
     imageUrl: 'f1.jpg',
-    contact: '0123456789',
+    contact: '0844445970',
     banking: 'ABC-68686868',
   },
   {
@@ -104,7 +104,7 @@ export const products = [
     title: 'Thịt trâu',
     decription: 'Sản phẩm thịt cao cấp nguyên chất đảm bảo quy trình nuôi',
     imageUrl: 'f1.jpg',
-    contact: '0123456789',
+    contact: '0844445970',
     banking: 'ABC-68686868',
   },
 ];
