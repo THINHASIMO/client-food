@@ -18,8 +18,8 @@ export class HomeComponent implements OnInit {
   openDialog(): void {
     const ref = this.dialogService.open(BankingInfoDialog, {
       header: 'Thông tin sản phẩm',
-      width: '50vw',
-      height: '50vh',
+      width: '75vw',
+      height: '75vh',
       data: 'hello world', // Pass your data to the dialog
     });
 

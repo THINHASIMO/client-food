@@ -1,17 +1,10 @@
-<p-dialog
-  header="Thông tin sản phẩm"
-  [(visible)]="dialogVisible"
-  [style]="{ width: '50vw', height:'500px' }"
->
-  <div class="main-dialog">
-    <p>{{ data }}</p>
-    <div class="ui-dialog-buttonpane p-clearfix">
-      <button type="button" pButton icon="pi pi-check" (click)="onOk()">
-        OK
-      </button>
-      <button type="button" pButton icon="pi pi-times" (click)="onCancel()">
-        Cancel
-      </button>
-    </div>
-  </div>
-</p-dialog>
+<div>
+  <h2>{{ employee.name }} Details</h2>
+  <ul>
+    <li><strong>ID:</strong> {{ employee.id }}</li>
+    <li><strong>Email:</strong> {{ employee.email }}</li>
+    <!-- Add more details as needed -->
+  </ul>
+
+  <p-button label="Submit"></p-button>
+</div>

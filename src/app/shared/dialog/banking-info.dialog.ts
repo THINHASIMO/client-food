@@ -6,21 +6,21 @@ import { DynamicDialogConfig } from 'primeng/dynamicdialog';
   templateUrl: './banking-info.dialog.html',
 })
 export class BankingInfoDialog {
-  dialogVisible = false;
-  data: string | undefined;
+  employee: any; // Declare the employee property to hold the data
 
   constructor(
-    public ref: DynamicDialogRef,
-    public config: DynamicDialogConfig
-  ) {}
-
-  onOk(): void {
-    // Handle OK action, close the dialog and pass any necessary data
-    this.ref.close({ result: 'ok', data: this.data });
+    public dialogRef: DynamicDialogRef,
+    public dialogConfig: DynamicDialogConfig
+  ) {
+    // Retrieve the employee data from the dialog configuration
+    this.employee = dialogConfig.data.employee;
   }
 
-  onCancel(): void {
-    // Handle Cancel action, close the dialog
-    this.ref.close({ result: 'cancel' });
+  closeDialog(): void {
+    // You can add any additional logic here before closing the dialog
+    // For example, you might want to save changes or perform some cleanup
+
+    // Close the dialog
+    this.dialogRef.close();
   }
 }
