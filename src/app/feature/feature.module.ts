@@ -7,12 +7,14 @@ import { FormsModule } from '@angular/forms';
 import { FeaturesComponent } from './feature.component';
 import { DialogService } from 'primeng/dynamicdialog';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { ButtonModule } from 'primeng/button';
 @NgModule({
   imports: [
     RouterModule.forRoot(featureRoutes, { useHash: true }),
     CommonModule,
     SharedModule,
     FormsModule,
+    ButtonModule,
     BrowserAnimationsModule,
   ],
   declarations: [FeaturesComponent],
