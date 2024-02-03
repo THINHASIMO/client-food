@@ -1,14 +1,18 @@
 @import '~@fortawesome/fontawesome-free/css/all.css';
-// src/styles.scss
 @import 'assets/vendor/bootstrap/css/bootstrap.min.css';
-@import "primeicons/primeicons.css";
 @import 'assets/css/fontawesome.css';
 @import 'assets/css/templatemo-villa-agency.css';
 @import 'assets/css/owl.css';
 @import 'assets/css/animate.css';
 @import 'https://unpkg.com/swiper@7/swiper-bundle.min.css';
-@import "primeng/resources/themes/lara-light-blue/theme.css";
-@import "primeng/resources/primeng.css";
+/* You can add global styles to this file, and also import other style files */
+$gutter: 1rem; //for primeflex grid system
+@import "assets/theme/layouts/layout.scss";
+@import "assets/theme/lara-light-indigo/theme.css";
+/* PrimeNG */
+// @import "../node_modules/primeng/resources/primeng.min.css";
+@import "../node_modules/primeflex/primeflex.scss";
+@import "../node_modules/primeicons/primeicons.css";
 /* Trong file styles.css */
 body {
   /* Trong một component hoặc template của Angular */
@@ -64,3 +68,7 @@ a img {
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+
+// prime Css
+
