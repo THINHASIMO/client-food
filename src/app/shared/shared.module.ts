@@ -5,24 +5,30 @@ import { FormsModule } from '@angular/forms';
 import { BankingInfoDialog } from './dialog/banking-info.dialog';
 import { DialogModule } from 'primeng/dialog';
 import { ButtonModule } from 'primeng/button';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { BrowserModule } from '@angular/platform-browser';
-
+import { CategoryFishComponent } from './components/category-fish/category-fish.component';
+import { CategoryMeatComponent } from './components/category-meat/category-meat.component';
 @NgModule({
   imports: [
-    BrowserAnimationsModule,
     CommonModule,
     RouterModule,
     FormsModule,
     DialogModule,
     ButtonModule,
-    BrowserModule,
     FormsModule,
-    BrowserAnimationsModule,
     DialogModule,
   ],
-  declarations: [BankingInfoDialog],
-  exports: [BankingInfoDialog, DialogModule, ButtonModule],
+  declarations: [
+    BankingInfoDialog,
+    CategoryFishComponent,
+    CategoryMeatComponent,
+  ],
+  exports: [
+    BankingInfoDialog,
+    DialogModule,
+    ButtonModule,
+    CategoryFishComponent,
+    CategoryMeatComponent,
+  ],
   providers: [],
 })
 export class SharedModule {}

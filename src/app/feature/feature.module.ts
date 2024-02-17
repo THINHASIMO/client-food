@@ -18,7 +18,7 @@ import { ButtonModule } from 'primeng/button';
     BrowserAnimationsModule,
   ],
   declarations: [FeaturesComponent],
-  exports: [FeaturesComponent],
+  exports: [FeaturesComponent, SharedModule],
   providers: [DialogService],
 })
 export class FeaturesModule {}

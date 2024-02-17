@@ -86,3 +86,142 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
   margin-bottom: 8px;
 }
 
+// home module 
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px 10px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 4px;
+  text-align: center;
+  background-color: #f1f1f1;
+}
+
+.marquee-container {
+    overflow: hidden;
+    white-space: nowrap;
+    overflow: hidden;
+    background-color: #f4f4f4; /* Màu nền */
+    padding: 10px; /* Khoảng cách xung quanh */
+    border-radius: 5px; /* Độ cong viền */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Đổ bóng nhẹ */
+  }
+
+  .marquee {
+    font-size: 24px; /* Đặt kích thước chữ */
+    animation: marqueeAnimation 35s linear infinite; /* Thêm animation cho chữ chạy */
+    font-family: 'Arial', sans-serif; /* Font chữ */
+    font-weight: bold; /* Phồng chữ */
+    color: #333; /* Màu chữ */
+    letter-spacing: 1px; /* Khoảng cách giữa các ký tự */
+    line-height: 1.5; /* Chiều cao của mỗi dòng */
+    overflow: hidden;
+    white-space: nowrap;
+    padding: 10px; /* Khoảng cách xung quanh */
+    background-color: #f4f4f4; /* Màu nền */
+    border-radius: 5px; /* Độ cong viền */
+  }
+
+  @keyframes marqueeAnimation {
+    0% { transform: translateX(100%); }
+    100% { transform: translateX(-100%); }
+  }
+
+@keyframes colorBlink {
+  0% { color: #ff0000; } /* Màu đỏ */
+  25% { color: #ff9900; } /* Màu cam */
+  50% { color: #ffff00; } /* Màu vàng */
+  75% { color: #00ff00; } /* Màu xanh lá cây */
+  100% { color: #0000ff; } /* Màu xanh dương */
+}
+
+.text-id {
+  animation: colorBlink 10s infinite; /* 5s là thời gian mỗi chu kỳ nhấp nháy, infinite để lặp vô hạn */
+}
+.banner {
+  background-color: white; /* Đặt màu nền là trắng */
+  padding: 10px; /* Tăng khoảng cách xung quanh hình ảnh */
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto; /* Để căn giữa ảnh trong container */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Thêm đổ bóng nhẹ */
+}
+
+.banner img {
+  width: 100%; /* Chiếm toàn bộ chiều rộng của div */
+  height: auto; /* Duy trì tỉ lệ khung hình */
+  display: block; /* Loại bỏ khoảng trắng dưới hình ảnh khi hiển thị dưới dạng inline */
+}
+
+// hover card effect
+.card {
+  cursor: pointer;
+  padding: 8px;
+  width: 100%;
+  height: 350px;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+}
+
+.card-content {
+  padding: 20px;
+  text-align: center;
+}
+
+.card-content h3 {
+  margin: 0;
+}
+
+.card-content p {
+  margin: 10px 0;
+}
+// center
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+// kẻ line top
+hr {
+  border: none; /* Loại bỏ border mặc định */
+  border-top: 2px solid #000; /* Tạo border trên */
+  margin-top: 20px; /* Khoảng cách từ line đến tiêu đề */
+}

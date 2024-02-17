@@ -5,23 +5,6 @@
   <div class="marquee-container mb-16rem">
     <div class="marquee">ĐẠI DƯƠNG FOODS - SẢN PHẨM CỦA CHÚNG TÔI</div>
   </div>
-
-  <div class="grid">
-    <ng-container *ngFor="let item of listProduct">
-      <div class="col-6 md:col-3" (click)="openDialog()">
-        <div class="card pointer">
-          <!-- <p class="text-id">Mã: {{ item.id }}</p> -->
-          <h3>{{ item.name }}</h3>
-          <p>{{ item.decription }}</p>
-          <img
-            [src]="'assets/images/foods/' + item.imageUrl"
-            style="width: 90%; height: 90%"
-          />
-          <p class="text-banking mg-12">
-            <i class="fa fa-envelope"></i><a class="mg-12">{{ item.price }}</a>
-          </p>
-        </div>
-      </div>
-    </ng-container>
-  </div>
+  <app-category-meat [listProduct]="listProduct"></app-category-meat>
+  <app-category-fish [listProduct]="listProduct"></app-category-fish>
 </div>

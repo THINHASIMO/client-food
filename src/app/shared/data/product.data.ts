@@ -7,6 +7,7 @@ export const products = [
     imageUrl: 'f1.jpg',
     price: '29,900,000 đ',
     banking: 'ABC-68686868',
+    category: 'fish',
   },
   {
     id: 'M02',
@@ -16,6 +17,7 @@ export const products = [
     imageUrl: 'f2.jpg',
     price: '29,900,000 đ',
     banking: 'ABC-68686868',
+    category: 'fish',
   },
   {
     id: 'M03',
@@ -25,6 +27,7 @@ export const products = [
     imageUrl: 'f3.jpg',
     price: '29,900,000 đ',
     banking: 'ABC-68686868',
+    category: 'fish',
   },
   {
     id: 'M04',
@@ -34,6 +37,7 @@ export const products = [
     imageUrl: 'f4.jpg',
     price: '29,900,000 đ',
     banking: 'ABC-68686868',
+    category: 'fish',
   },
   {
     id: 'M05',
@@ -43,6 +47,7 @@ export const products = [
     imageUrl: 'f5.jpg',
     price: '29,900,000 đ',
     banking: 'ABC-68686868',
+    category: 'fish',
   },
   {
     id: 'M06',
@@ -52,6 +57,7 @@ export const products = [
     imageUrl: 'f6.jpg',
     price: '29,900,000 đ',
     banking: 'ABC-68686868',
+    category: 'fish',
   },
   {
     id: 'M07',
@@ -61,6 +67,7 @@ export const products = [
     imageUrl: 'f7.jpg',
     price: '29,900,000 đ',
     banking: 'ABC-68686868',
+    category: 'fish',
   },
   {
     id: 'M08',
@@ -70,6 +77,7 @@ export const products = [
     imageUrl: 'f8.jpg',
     price: '29,900,000 đ',
     banking: 'ABC-68686868',
+    category: 'fish',
   },
   {
     id: 'M09',
@@ -79,6 +87,7 @@ export const products = [
     imageUrl: 'f9.jpg',
     price: '29,900,000 đ',
     banking: 'ABC-68686868',
+    category: 'fish',
   },
   {
     id: 'M10',
@@ -88,6 +97,7 @@ export const products = [
     imageUrl: 'f10.jpg',
     price: '29,900,000 đ',
     banking: 'ABC-68686868',
+    category: 'fish',
   },
   {
     id: 'M11',
@@ -97,6 +107,7 @@ export const products = [
     imageUrl: 'f11.jpg',
     price: '29,900,000 đ',
     banking: 'ABC-68686868',
+    category: 'fish',
   },
   {
     id: 'M12',
@@ -106,5 +117,6 @@ export const products = [
     imageUrl: 'f12.jpg',
     price: '29,900,000 đ',
     banking: 'ABC-68686868',
+    category: 'fish',
   },
 ];
