@@ -2,29 +2,23 @@
   <div class="banner">
     <img [src]="'assets/images/foods/f30.jpg'" />
   </div>
-  <div class="marquee-container">
+  <div class="marquee-container mb-16rem">
     <div class="marquee">ĐẠI DƯƠNG FOODS - SẢN PHẨM CỦA CHÚNG TÔI</div>
   </div>
 
   <div class="grid">
     <ng-container *ngFor="let item of listProduct">
       <div class="col-6 md:col-3" (click)="openDialog()">
-        <div class="card">
-          <p class="text-id">Mã: {{ item.id }}</p>
+        <div class="card pointer">
+          <!-- <p class="text-id">Mã: {{ item.id }}</p> -->
           <h3>{{ item.name }}</h3>
           <p>{{ item.decription }}</p>
           <img
             [src]="'assets/images/foods/' + item.imageUrl"
-            style="width: 230xp; height: 114px"
+            style="width: 90%; height: 90%"
           />
-          <p class="text-contact mg-12">
-            <i class="fa fa-phone"></i>
-            <a class="mg-12" [href]="'tel:' + item.contact">{{
-              item.contact
-            }}</a>
-          </p>
           <p class="text-banking mg-12">
-            <i class="fa fa-envelope"></i><a class="mg-12">Giá: 129k</a>
+            <i class="fa fa-envelope"></i><a class="mg-12">{{ item.price }}</a>
           </p>
         </div>
       </div>

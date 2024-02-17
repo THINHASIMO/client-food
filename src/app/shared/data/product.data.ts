@@ -5,7 +5,7 @@ export const products = [
     title: ' nam bộ',
     decription: 'Sản phẩm thịt cao cấp nguyên chất 100%',
     imageUrl: 'f1.jpg',
-    contact: '0844445970',
+    price: '29,900,000 đ',
     banking: 'ABC-68686868',
   },
   {
@@ -14,7 +14,7 @@ export const products = [
     title: '',
     decription: 'Sản phẩm thịt cao cấp nguyên chất 100%',
     imageUrl: 'f2.jpg',
-    contact: '0844445970',
+    price: '29,900,000 đ',
     banking: 'ABC-68686868',
   },
   {
@@ -23,7 +23,7 @@ export const products = [
     title: '',
     decription: 'Sản phẩm thịt cao cấp nguyên chất 100%',
     imageUrl: 'f3.jpg',
-    contact: '0844445970',
+    price: '29,900,000 đ',
     banking: 'ABC-68686868',
   },
   {
@@ -32,7 +32,7 @@ export const products = [
     title: '',
     decription: 'Sản phẩm thịt cao cấp nguyên chất 100%',
     imageUrl: 'f4.jpg',
-    contact: '0844445970',
+    price: '29,900,000 đ',
     banking: 'ABC-68686868',
   },
   {
@@ -41,7 +41,7 @@ export const products = [
     title: '',
     decription: 'Sản phẩm thịt cao cấp nguyên chất 100%',
     imageUrl: 'f5.jpg',
-    contact: '0844445970',
+    price: '29,900,000 đ',
     banking: 'ABC-68686868',
   },
   {
@@ -50,7 +50,7 @@ export const products = [
     title: '',
     decription: 'Sản phẩm thịt cao cấp nguyên chất 100%',
     imageUrl: 'f6.jpg',
-    contact: '0844445970',
+    price: '29,900,000 đ',
     banking: 'ABC-68686868',
   },
   {
@@ -59,7 +59,7 @@ export const products = [
     title: '',
     decription: 'Sản phẩm thịt cao cấp nguyên chất 100%',
     imageUrl: 'f7.jpg',
-    contact: '0844445970',
+    price: '29,900,000 đ',
     banking: 'ABC-68686868',
   },
   {
@@ -68,7 +68,7 @@ export const products = [
     title: '',
     decription: 'Sản phẩm thịt cao cấp nguyên chất 100%',
     imageUrl: 'f8.jpg',
-    contact: '0844445970',
+    price: '29,900,000 đ',
     banking: 'ABC-68686868',
   },
   {
@@ -77,7 +77,7 @@ export const products = [
     title: '',
     decription: 'Sản phẩm thịt cao cấp nguyên chất 100%',
     imageUrl: 'f9.jpg',
-    contact: '0844445970',
+    price: '29,900,000 đ',
     banking: 'ABC-68686868',
   },
   {
@@ -86,7 +86,7 @@ export const products = [
     title: '',
     decription: 'Sản phẩm thịt cao cấp nguyên chất 100%',
     imageUrl: 'f10.jpg',
-    contact: '0844445970',
+    price: '29,900,000 đ',
     banking: 'ABC-68686868',
   },
   {
@@ -95,7 +95,7 @@ export const products = [
     title: '',
     decription: 'Sản phẩm thịt cao cấp nguyên chất 100%',
     imageUrl: 'f11.jpg',
-    contact: '0844445970',
+    price: '29,900,000 đ',
     banking: 'ABC-68686868',
   },
   {
@@ -104,7 +104,7 @@ export const products = [
     title: '',
     decription: 'Sản phẩm thịt cao cấp nguyên chất 100%',
     imageUrl: 'f12.jpg',
-    contact: '0844445970',
+    price: '29,900,000 đ',
     banking: 'ABC-68686868',
   },
 ];
