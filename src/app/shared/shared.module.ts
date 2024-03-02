@@ -7,6 +7,8 @@ import { DialogModule } from 'primeng/dialog';
 import { ButtonModule } from 'primeng/button';
 import { CategoryFishComponent } from './components/category-fish/category-fish.component';
 import { CategoryMeatComponent } from './components/category-meat/category-meat.component';
+import { AlertModule, CarouselModule } from '@coreui/angular';
+import { HomeSlider } from './sliders/home.slider';
 @NgModule({
   imports: [
     CommonModule,
@@ -16,13 +18,17 @@ import { CategoryMeatComponent } from './components/category-meat/category-meat.
     ButtonModule,
     FormsModule,
     DialogModule,
+    AlertModule,
+    CarouselModule,
   ],
   declarations: [
+    HomeSlider,
     BankingInfoDialog,
     CategoryFishComponent,
     CategoryMeatComponent,
   ],
   exports: [
+    HomeSlider,
     BankingInfoDialog,
     DialogModule,
     ButtonModule,
