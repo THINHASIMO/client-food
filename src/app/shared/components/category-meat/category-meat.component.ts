@@ -14,7 +14,7 @@ export class CategoryMeatComponent implements OnInit {
   openDialog(product: any): void {
     const ref = this.dialogService.open(DataInfoDialog, {
       header: 'Thông tin sản phẩm',
-      width: '75vw',
+      width: '90vw',
       height: '90vh',
       data: product, // Pass your data to the dialog
     });
