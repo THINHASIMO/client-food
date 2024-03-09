@@ -1,16 +1,13 @@
 <div class="grid">
   <div class="col-12 center">
-    <h2>Danh mục sản phẩm</h2>
+    <h3>SẢN PHẨM BÀN GHẾ</h3>
   </div>
   <ng-container *ngFor="let item of listProduct">
-    <div class="col-6 md:col-3" (click)="openDialog()">
+    <div class="col-6 md:col-3" (click)="openDialog(item)">
       <div class="card pointer">
-        <h4>{{ item.name }}</h4>
-        <p>{{ item.decription }}</p>
-        <img
-          [src]="'assets/images/foods/' + item.imageUrl"
-          style="width: 90%; height: 90%"
-        />
+        <h5>{{ item.name }}</h5>
+        <p [innerHTML]="item.title"></p>
+        <img [src]="item.src" style="width: 90%; height: 90%" />
         <p class="text-banking mg-12">
           <i class="fa fa-envelope"></i><a class="mg-12">{{ item.price }}</a>
         </p>

@@ -1,6 +1,6 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { DialogService } from 'primeng/dynamicdialog';
-import { BankingInfoDialog } from '../../dialog/banking-info.dialog';
+import { DataInfoDialog } from '../../dialog/data-info.dialog';
 
 @Component({
   selector: 'app-category-fish',
@@ -11,12 +11,12 @@ export class CategoryFishComponent implements OnInit {
   @Input() listProduct: any;
   constructor(private dialogService: DialogService) {}
   ngOnInit() {}
-  openDialog(): void {
-    const ref = this.dialogService.open(BankingInfoDialog, {
+  openDialog(product: any): void {
+    const ref = this.dialogService.open(DataInfoDialog, {
       header: 'Thông tin sản phẩm',
       width: '75vw',
-      height: '75vh',
-      data: 'hello world', // Pass your data to the dialog
+      height: '90vh',
+      data: product, // Pass your data to the dialog
     });
 
     ref.onClose.subscribe((dialogResult: any) => {

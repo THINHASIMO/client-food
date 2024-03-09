@@ -1,38 +1,48 @@
 import { Component } from '@angular/core';
+import { sliders } from '../data/slider.data';
 
 @Component({
   selector: 'slider-banner',
   templateUrl: './home.slider.html',
 })
 export class HomeSlider {
-  slides: any[] = new Array(3).fill({
-    id: -1,
-    src: '',
-    title: '',
-    subtitle: '',
-  });
+  sliderList: any[] = [];
+
+  responsiveOptions: any[] | undefined;
 
   constructor() {}
 
-  ngOnInit(): void {
-    this.slides[0] = {
-      id: 0,
-      src: './assets/img/angular.jpg',
-      title: 'First slide',
-      subtitle: 'Nulla vitae elit libero, a pharetra augue mollis interdum.',
-    };
-    this.slides[1] = {
-      id: 1,
-      src: './assets/img/react.jpg',
-      title: 'Second slide',
-      subtitle: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-    };
-    this.slides[2] = {
-      id: 2,
-      src: './assets/img/vue.jpg',
-      title: 'Third slide',
-      subtitle:
-        'Praesent commodo cursus magna, vel scelerisque nisl consectetur.',
-    };
+  ngOnInit() {
+    this.sliderList = sliders;
+
+    this.responsiveOptions = [
+      {
+        breakpoint: '1199px',
+        numVisible: 1,
+        numScroll: 1,
+      },
+      {
+        breakpoint: '991px',
+        numVisible: 2,
+        numScroll: 1,
+      },
+      {
+        breakpoint: '767px',
+        numVisible: 1,
+        numScroll: 1,
+      },
+    ];
+  }
+
+  getSeverity(status: string) {
+    switch (status) {
+      case 'INSTOCK':
+        return 'success';
+      case 'LOWSTOCK':
+        return 'warning';
+      case 'OUTOFSTOCK':
+        return 'danger';
+    }
+    return '';
   }
 }
