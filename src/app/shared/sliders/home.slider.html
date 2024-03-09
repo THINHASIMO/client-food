@@ -1,27 +1,14 @@
-<c-carousel [dark]="true" [wrap]="false">
-  <c-carousel-indicators></c-carousel-indicators>
-  <c-carousel-inner>
-    <c-carousel-item *ngFor="let slide of slides; index as i;">
-      <img
-        [src]="slide.src"
-        alt="{{slide.title}}"
-        class="d-block w-100"
-        loading="lazy"
-      />
-      <c-carousel-caption class="d-none d-md-block">
-        <h3>{{slide.title}}</h3>
-        <p>{{slide.subtitle}}</p>
-      </c-carousel-caption>
-    </c-carousel-item>
-  </c-carousel-inner>
-  <c-carousel-control
-    [routerLink]
-    caption="Previous"
-    direction="prev"
-  ></c-carousel-control>
-  <c-carousel-control
-    [routerLink]
-    caption="Next"
-    direction="next"
-  ></c-carousel-control>
-</c-carousel>
+<p-carousel
+  [value]="sliderList"
+  [numVisible]="3"
+  [numScroll]="3"
+  [circular]="false"
+  [responsiveOptions]="responsiveOptions"
+  [autoplayInterval]="3000"
+>
+  <ng-template let-data pTemplate="item">
+    <div class="border-1 surface-border border-round m-2 text-center py-5 px-3">
+      <img [src]="data.src" [alt]="data.title" class="w-full shadow-2" />
+    </div>
+  </ng-template>
+</p-carousel>

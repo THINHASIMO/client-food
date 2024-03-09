@@ -1,0 +1,25 @@
+.image-product {
+  width: 310px;
+  height: 320px;
+  border-radius: 12px;
+}
+.border-top {
+  border-top: solid 1px green;
+}
+.product-info {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-weight: bold; /* Chữ đậm */
+  color: #333; /* Màu chữ */
+  font-family: "Roboto", sans-serif; /* Font chữ */
+  cursor: pointer;
+}
+
+.product-info:first-child {
+  margin-top: 0; /* Loại bỏ khoảng trắng trên cùng của phần tử đầu tiên */
+}
+
+.product-info:hover {
+  color: #ff6600; /* Màu chữ thay đổi khi hover */
+}

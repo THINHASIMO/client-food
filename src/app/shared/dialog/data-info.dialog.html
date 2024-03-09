@@ -1,0 +1,57 @@
+<div class="main-dialog">
+  <div class="grid border-top">
+    <div class="col-6 center">
+      <img [src]="product.src" class="image-product" />
+    </div>
+    <div class="col-6">
+      <div class="text-start">
+        <span class="product-info"
+          ><i
+            class="pi pi-heart-fill"
+            style="font-size: 2rem; padding-right: 12px"
+          ></i
+          >MSP: {{product.id}}</span
+        >
+        <span class="product-info"
+          ><i
+            class="pi pi-verified"
+            style="font-size: 2rem; padding-right: 12px"
+          ></i
+          >Tên sản phẩm: {{product.name}}</span
+        >
+        <span class="product-info"
+          ><i
+            class="pi pi-verified"
+            style="font-size: 2rem; padding-right: 12px"
+          ></i
+          >Mô tả chi tiết: {{product.decription}}</span
+        >
+        <span class="product-info"
+          ><i
+            class="pi pi-dollar"
+            style="font-size: 2rem; padding-right: 12px"
+          ></i
+          >Giá thành: {{product.price}}</span
+        >
+        <span class="product-info">
+          <i
+            class="pi pi-send"
+            style="font-size: 2rem; padding-right: 12px"
+          ></i>
+          Địa Chỉ: {{product.address}}
+        </span>
+        <span class="product-info">
+          <i
+            class="pi pi-phone"
+            style="font-size: 2rem; padding-right: 12px"
+          ></i>
+
+          <a style="color: brown" href="tel:{{product.phone}}">08.4444.5970</a>
+        </span>
+      </div>
+    </div>
+    <div class="col-12 center">
+      <p-button label="Đóng" (click)="closeDialog()"></p-button>
+    </div>
+  </div>
+</div>

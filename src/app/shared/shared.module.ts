@@ -2,13 +2,13 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterModule } from '@angular/router';
 import { FormsModule } from '@angular/forms';
-import { BankingInfoDialog } from './dialog/banking-info.dialog';
+import { DataInfoDialog } from './dialog/data-info.dialog';
 import { DialogModule } from 'primeng/dialog';
 import { ButtonModule } from 'primeng/button';
 import { CategoryFishComponent } from './components/category-fish/category-fish.component';
 import { CategoryMeatComponent } from './components/category-meat/category-meat.component';
-import { AlertModule, CarouselModule } from '@coreui/angular';
 import { HomeSlider } from './sliders/home.slider';
+import { CarouselModule } from 'primeng/carousel';
 @NgModule({
   imports: [
     CommonModule,
@@ -18,18 +18,17 @@ import { HomeSlider } from './sliders/home.slider';
     ButtonModule,
     FormsModule,
     DialogModule,
-    AlertModule,
     CarouselModule,
   ],
   declarations: [
     HomeSlider,
-    BankingInfoDialog,
+    DataInfoDialog,
     CategoryFishComponent,
     CategoryMeatComponent,
   ],
   exports: [
     HomeSlider,
-    BankingInfoDialog,
+    DataInfoDialog,
     DialogModule,
     ButtonModule,
     CategoryFishComponent,
