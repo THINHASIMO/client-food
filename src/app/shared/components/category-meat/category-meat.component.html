@@ -5,13 +5,13 @@
   <ng-container *ngFor="let item of listProduct">
     <div class="col-6 md:col-3" (click)="openDialog(item)">
       <div class="card pointer">
-        <h5>{{ item.name }}</h5>
-        <p [innerHTML]="item.title"></p>
+        <!-- <h5>{{ item.name }}</h5> -->
+        <!-- <p [innerHTML]="item.title"></p> -->
         <img [src]="item.src" style="width: 90%; height: 90%" />
 
         <p class="text-banking mg-12">
           <i class="pi left pi-chevron-circle-right"></i
-          ><a class="mg-12">Ấn vào để xem chi tiết sản phẩm</a>
+          ><a class="mg-12">Ấn vào ảnh để xem chi tiết</a>
         </p>
       </div>
     </div>
