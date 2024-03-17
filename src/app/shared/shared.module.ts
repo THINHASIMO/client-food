@@ -10,6 +10,7 @@ import { CategoryMeatComponent } from './components/category-meat/category-meat.
 import { HomeSlider } from './sliders/home.slider';
 import { CarouselModule } from 'primeng/carousel';
 import { OutServiceComponent } from './components/our-service/our-service.component';
+import { ScrollTopModule } from 'primeng/scrolltop';
 @NgModule({
   imports: [
     CommonModule,
@@ -20,6 +21,7 @@ import { OutServiceComponent } from './components/our-service/our-service.compon
     FormsModule,
     DialogModule,
     CarouselModule,
+    ScrollTopModule,
   ],
   declarations: [
     HomeSlider,
@@ -33,6 +35,7 @@ import { OutServiceComponent } from './components/our-service/our-service.compon
     DataInfoDialog,
     DialogModule,
     ButtonModule,
+    ScrollTopModule,
     CategoryFishComponent,
     CategoryMeatComponent,
     OutServiceComponent,
