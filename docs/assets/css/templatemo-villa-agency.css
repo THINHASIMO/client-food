@@ -197,7 +197,7 @@ body {
 }
 
 .section {
-  margin-top: 120px;
+  margin-top: 12px;
 }
 
 .section-heading {
@@ -911,7 +911,7 @@ Featured Style
 }
 
 .featured .left-image img {
-  padding-left: 55px;
+  padding-left: 0px;
 }
 
 .featured .left-image a {
