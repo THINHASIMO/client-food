@@ -9,6 +9,7 @@ import { CategoryFishComponent } from './components/category-fish/category-fish.
 import { CategoryMeatComponent } from './components/category-meat/category-meat.component';
 import { HomeSlider } from './sliders/home.slider';
 import { CarouselModule } from 'primeng/carousel';
+import { OutServiceComponent } from './components/our-service/our-service.component';
 @NgModule({
   imports: [
     CommonModule,
@@ -25,6 +26,7 @@ import { CarouselModule } from 'primeng/carousel';
     DataInfoDialog,
     CategoryFishComponent,
     CategoryMeatComponent,
+    OutServiceComponent,
   ],
   exports: [
     HomeSlider,
@@ -33,6 +35,7 @@ import { CarouselModule } from 'primeng/carousel';
     ButtonModule,
     CategoryFishComponent,
     CategoryMeatComponent,
+    OutServiceComponent,
   ],
   providers: [],
 })
