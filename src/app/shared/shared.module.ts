@@ -12,6 +12,7 @@ import { CarouselModule } from 'primeng/carousel';
 import { OutServiceComponent } from './components/our-service/our-service.component';
 import { ScrollTopModule } from 'primeng/scrolltop';
 import { PhoneCallStickComponent } from './components/phone-call-stick/phone-call-stick.component';
+import { PostContentComponent } from './components/post-content/post-content.component';
 @NgModule({
   imports: [
     CommonModule,
@@ -31,6 +32,7 @@ import { PhoneCallStickComponent } from './components/phone-call-stick/phone-cal
     CategoryMeatComponent,
     OutServiceComponent,
     PhoneCallStickComponent,
+    PostContentComponent,
   ],
   exports: [
     HomeSlider,
@@ -42,6 +44,7 @@ import { PhoneCallStickComponent } from './components/phone-call-stick/phone-cal
     CategoryMeatComponent,
     OutServiceComponent,
     PhoneCallStickComponent,
+    PostContentComponent,
   ],
   providers: [],
 })

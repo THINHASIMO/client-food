@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { DialogService } from 'primeng/dynamicdialog';
+import { posts } from 'src/app/shared/data/post.data';
 import { products } from 'src/app/shared/data/product.data';
 import { services } from 'src/app/shared/data/service.data';
 
@@ -11,6 +12,7 @@ import { services } from 'src/app/shared/data/service.data';
 export class HomeComponent implements OnInit {
   listProduct = products;
   listService = services;
+  listPost = posts;
   constructor(private dialogService: DialogService) {}
   ngOnInit() {
     console.log('listProduct', this.listProduct);
