@@ -182,7 +182,7 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 
 // hover card effect
 .card {
-  padding: 8px;
+  padding: 0px;
   width: 100%;
   height: 350px;
   background-color: #f0f0f0;
@@ -433,10 +433,4 @@ footer p {
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-.col-6 {
-  flex: 0 0 auto;
-  padding: 0rem;
-  width: 50%;
 }
