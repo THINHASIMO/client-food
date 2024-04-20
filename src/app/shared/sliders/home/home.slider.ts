@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { sliders } from '../data/slider.data';
+import { sliders } from '../../data/slider.data';
 
 @Component({
   selector: 'slider-banner',

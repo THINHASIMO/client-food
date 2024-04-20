@@ -8,12 +8,13 @@ import { DynamicDialogConfig } from 'primeng/dynamicdialog';
 })
 export class DataInfoDialog {
   product: any; // Declare the product property to hold the data
-
+  comments: any;
   constructor(
     public dialogRef: DynamicDialogRef,
     public dialogConfig: DynamicDialogConfig
   ) {
-    this.product = dialogConfig.data;
+    this.product = dialogConfig.data.product;
+    this.comments = dialogConfig.data.comments;
   }
 
   closeDialog(): void {

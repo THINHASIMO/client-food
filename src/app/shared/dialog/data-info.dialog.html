@@ -1,10 +1,11 @@
 <div class="main-dialog">
   <div class="grid border-top">
-    <div class="col-12 md:col-6 center">
-      <img [src]="product.src" class="image-product" />
+    <div class="col-12 md:col-6">
+      <!-- <img [src]="product.src" class="image-product" /> -->
+      <slider-product></slider-product>
     </div>
     <div class="col-12 md:col-6">
-      <div class="text-start">
+      <div class="text-start overflow-item-y">
         <span class="product-info"
           ><i
             class="pi pi-heart-fill"
@@ -48,6 +49,7 @@
 
           <a style="color: brown" href="tel:{{product.phone}}">0983.578.862</a>
         </span>
+        <app-comment [comments]="comments"></app-comment>
       </div>
     </div>
     <!-- <div class="col-12 center">

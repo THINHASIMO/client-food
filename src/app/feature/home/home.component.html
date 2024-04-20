@@ -6,7 +6,13 @@
     </div>
   </div>
   <app-our-service [listService]="listService"></app-our-service>
-  <app-category-meat [listProduct]="listProduct"></app-category-meat>
-  <app-category-fish [listProduct]="listProduct"></app-category-fish>
+  <app-category-meat
+    [listProduct]="listProduct"
+    [comments]="comments"
+  ></app-category-meat>
+  <app-category-fish
+    [listProduct]="listProduct"
+    [comments]="comments"
+  ></app-category-fish>
   <app-post-content [listPost]="listPost"></app-post-content>
 </div>

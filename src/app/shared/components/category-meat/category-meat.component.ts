@@ -9,6 +9,7 @@ import { DialogService } from 'primeng/dynamicdialog';
 })
 export class CategoryMeatComponent implements OnInit {
   @Input() listProduct: any;
+  @Input() comments: any;
   constructor(private dialogService: DialogService) {}
   ngOnInit() {}
   openDialog(product: any): void {
@@ -16,7 +17,10 @@ export class CategoryMeatComponent implements OnInit {
       header: 'Thông tin sản phẩm',
       width: '90vw',
       height: '90vh',
-      data: product, // Pass your data to the dialog
+      data: {
+        product: product,
+        comments: this.comments,
+      }, // Pass your data to the dialog
     });
 
     ref.onClose.subscribe((dialogResult: any) => {

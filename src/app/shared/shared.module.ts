@@ -7,12 +7,16 @@ import { DialogModule } from 'primeng/dialog';
 import { ButtonModule } from 'primeng/button';
 import { CategoryFishComponent } from './components/category-fish/category-fish.component';
 import { CategoryMeatComponent } from './components/category-meat/category-meat.component';
-import { HomeSlider } from './sliders/home.slider';
+import { HomeSlider } from './sliders/home/home.slider';
 import { CarouselModule } from 'primeng/carousel';
 import { OutServiceComponent } from './components/our-service/our-service.component';
 import { ScrollTopModule } from 'primeng/scrolltop';
 import { PhoneCallStickComponent } from './components/phone-call-stick/phone-call-stick.component';
 import { PostContentComponent } from './components/post-content/post-content.component';
+import { RatingModule } from 'primeng/rating';
+import { TableModule } from 'primeng/table';
+import { CommentComponent } from './components/comment/comment.component';
+import { ProductSlider } from './sliders/product-detail/product.slider';
 @NgModule({
   imports: [
     CommonModule,
@@ -24,18 +28,25 @@ import { PostContentComponent } from './components/post-content/post-content.com
     DialogModule,
     CarouselModule,
     ScrollTopModule,
+    RatingModule,
+    TableModule,
   ],
   declarations: [
     HomeSlider,
+    ProductSlider,
+
     DataInfoDialog,
     CategoryFishComponent,
     CategoryMeatComponent,
     OutServiceComponent,
     PhoneCallStickComponent,
     PostContentComponent,
+    CommentComponent,
   ],
   exports: [
     HomeSlider,
+    ProductSlider,
+
     DataInfoDialog,
     DialogModule,
     ButtonModule,
@@ -45,6 +56,7 @@ import { PostContentComponent } from './components/post-content/post-content.com
     OutServiceComponent,
     PhoneCallStickComponent,
     PostContentComponent,
+    CommentComponent,
   ],
   providers: [],
 })

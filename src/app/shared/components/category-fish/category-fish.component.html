@@ -1,16 +1,27 @@
 <div class="grid mt-2">
   <div class="col-12 center">
-    <h3 class="text-decoration">SẢN PHẨM BÁN CHẠY</h3>
+    <h3 class="text-decoration">Bộ bàn ghế</h3>
   </div>
   <ng-container *ngFor="let item of listProduct">
     <div class="col-6 md:col-3" (click)="openDialog(item)">
       <div class="card pointer">
         <img [src]="item.src" style="width: 100%; height: 90%" />
 
-        <p class="text-banking mg-12">
-          <i class="pi left pi pi-search"></i
-          ><a class="m-2 text-effect">Xem chi tiết</a>
-        </p>
+        <span class="text-banking">
+          <a class="text-effect">{{ item.name }}</a>
+        </span>
+        <p-rating
+          style="margin-bottom: -18px"
+          [(ngModel)]="item.rating"
+          [cancel]="false"
+        ></p-rating>
+        <br />
+        <span
+          style="display: flex; align-items: center; justify-content: center"
+        >
+          <i class="pi pi-eye m-2"></i>
+          <span style="color: lightseagreen">250</span></span
+        >
       </div>
     </div>
   </ng-container>

@@ -1,7 +1,7 @@
 export const products = [
   {
     id: 'M01',
-    name: 'tủ gỗ',
+    name: 'Tủ Gỗ',
     title:
       ' Dòng sản phẩm đồ gỗ của chúng tôi <br> Sự hoàn hảo từ tỉ mỉ đến hoàn hảo.',
     decription:
@@ -10,12 +10,13 @@ export const products = [
     price: '29,900,000 đ',
     phone: '0983578862',
     category: 'fish',
+    rating: 5,
     address:
       'Cửa hàng nội thất Hùng Hòa, Xã Hải Minh, Huyện Hải Hậu, Tỉnh Nam Định',
   },
   {
     id: 'M02',
-    name: 'tủ gỗ',
+    name: 'Tủ Gỗ',
     title:
       'Dòng sản phẩm đồ gỗ của chúng tôi <br> sự hoàn hảo từ tỉ mỉ đến hoàn hảo.',
     decription:
@@ -25,12 +26,13 @@ export const products = [
     price: '29,900,000 đ',
     phone: '0983578862',
     category: 'fish',
+    rating: 5,
     address:
       'Cửa hàng nội thất Hùng Hòa, Xã Hải Minh, Huyện Hải Hậu, Tỉnh Nam Định',
   },
   {
     id: 'M03',
-    name: 'tủ gỗ',
+    name: 'Tủ Gỗ',
     title:
       'Dòng sản phẩm đồ gỗ của chúng tôi <br> sự hoàn hảo từ tỉ mỉ đến hoàn hảo.',
     decription:
@@ -40,12 +42,13 @@ export const products = [
     price: '29,900,000 đ',
     phone: '0983578862',
     category: 'fish',
+    rating: 5,
     address:
       'Cửa hàng nội thất Hùng Hòa, Xã Hải Minh, Huyện Hải Hậu, Tỉnh Nam Định',
   },
   {
     id: 'M04',
-    name: 'tủ gỗ',
+    name: 'Tủ Gỗ',
     title:
       'Dòng sản phẩm đồ gỗ của chúng tôi <br> sự hoàn hảo từ tỉ mỉ đến hoàn hảo.',
     decription:
@@ -55,12 +58,13 @@ export const products = [
     price: '29,900,000 đ',
     phone: '0983578862',
     category: 'fish',
+    rating: 5,
     address:
       'Cửa hàng nội thất Hùng Hòa, Xã Hải Minh, Huyện Hải Hậu, Tỉnh Nam Định',
   },
   {
     id: 'M05',
-    name: 'tủ gỗ',
+    name: 'Tủ Gỗ',
     title:
       'Dòng sản phẩm đồ gỗ của chúng tôi <br> sự hoàn hảo từ tỉ mỉ đến hoàn hảo.',
     decription:
@@ -70,12 +74,13 @@ export const products = [
     price: '29,900,000 đ',
     phone: '0983578862',
     category: 'fish',
+    rating: 5,
     address:
       'Cửa hàng nội thất Hùng Hòa, Xã Hải Minh, Huyện Hải Hậu, Tỉnh Nam Định',
   },
   {
     id: 'M01',
-    name: 'tủ gỗ',
+    name: 'Tủ Gỗ',
     title:
       ' Dòng sản phẩm đồ gỗ của chúng tôi <br> sự hoàn hảo từ tỉ mỉ đến hoàn hảo.',
     decription:
@@ -85,12 +90,13 @@ export const products = [
     price: '29,900,000 đ',
     phone: '0983578862',
     category: 'fish',
+    rating: 5,
     address:
       'Cửa hàng nội thất Hùng Hòa, Xã Hải Minh, Huyện Hải Hậu, Tỉnh Nam Định',
   },
   {
     id: 'M02',
-    name: 'tủ gỗ',
+    name: 'Tủ Gỗ',
     title:
       'Dòng sản phẩm đồ gỗ của chúng tôi <br> sự hoàn hảo từ tỉ mỉ đến hoàn hảo.',
     decription:
@@ -100,12 +106,13 @@ export const products = [
     price: '29,900,000 đ',
     phone: '0983578862',
     category: 'fish',
+    rating: 5,
     address:
       'Cửa hàng nội thất Hùng Hòa, Xã Hải Minh, Huyện Hải Hậu, Tỉnh Nam Định',
   },
   {
     id: 'M03',
-    name: 'tủ gỗ',
+    name: 'Tủ Gỗ',
     title:
       'Dòng sản phẩm đồ gỗ của chúng tôi <br> sự hoàn hảo từ tỉ mỉ đến hoàn hảo.',
     decription:
@@ -115,12 +122,13 @@ export const products = [
     price: '29,900,000 đ',
     phone: '0983578862',
     category: 'fish',
+    rating: 5,
     address:
       'Cửa hàng nội thất Hùng Hòa, Xã Hải Minh, Huyện Hải Hậu, Tỉnh Nam Định',
   },
   {
     id: 'M04',
-    name: 'tủ gỗ',
+    name: 'Tủ Gỗ',
     title:
       'Dòng sản phẩm đồ gỗ của chúng tôi <br> sự hoàn hảo từ tỉ mỉ đến hoàn hảo.',
     decription:
@@ -130,12 +138,13 @@ export const products = [
     price: '29,900,000 đ',
     phone: '0983578862',
     category: 'fish',
+    rating: 5,
     address:
       'Cửa hàng nội thất Hùng Hòa, Xã Hải Minh, Huyện Hải Hậu, Tỉnh Nam Định',
   },
   {
     id: 'M05',
-    name: 'tủ gỗ',
+    name: 'Tủ Gỗ',
     title:
       'Dòng sản phẩm đồ gỗ của chúng tôi <br> sự hoàn hảo từ tỉ mỉ đến hoàn hảo.',
     decription:
@@ -145,12 +154,13 @@ export const products = [
     price: '29,900,000 đ',
     phone: '0983578862',
     category: 'fish',
+    rating: 5,
     address:
       'Cửa hàng nội thất Hùng Hòa, Xã Hải Minh, Huyện Hải Hậu, Tỉnh Nam Định',
   },
   {
     id: 'M05',
-    name: 'tủ gỗ',
+    name: 'Tủ Gỗ',
     title:
       'Dòng sản phẩm đồ gỗ của chúng tôi <br> sự hoàn hảo từ tỉ mỉ đến hoàn hảo.',
     decription:
@@ -160,12 +170,13 @@ export const products = [
     price: '29,900,000 đ',
     phone: '0983578862',
     category: 'fish',
+    rating: 5,
     address:
       'Cửa hàng nội thất Hùng Hòa, Xã Hải Minh, Huyện Hải Hậu, Tỉnh Nam Định',
   },
   {
     id: 'M05',
-    name: 'tủ gỗ',
+    name: 'Tủ Gỗ',
     title:
       'Dòng sản phẩm đồ gỗ của chúng tôi <br> sự hoàn hảo từ tỉ mỉ đến hoàn hảo.',
     decription:
@@ -175,6 +186,7 @@ export const products = [
     price: '29,900,000 đ',
     phone: '0983578862',
     category: 'fish',
+    rating: 5,
     address:
       'Cửa hàng nội thất Hùng Hòa, Xã Hải Minh, Huyện Hải Hậu, Tỉnh Nam Định',
   },

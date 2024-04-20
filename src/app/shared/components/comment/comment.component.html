@@ -1,0 +1,22 @@
+<p-table [value]="comments">
+  <ng-template pTemplate="header">
+    <tr>
+      <th>Tên khách hàng</th>
+      <th>Nội dung đánh giá</th>
+    </tr>
+  </ng-template>
+  <ng-template pTemplate="body" let-product>
+    <tr>
+      <td>{{ product.name }}</td>
+      <td>
+        <p-rating
+          [ngModel]="product.rating"
+          [readonly]="true"
+          [cancel]="false"
+        ></p-rating>
+        <br />
+        {{ product.comment }}
+      </td>
+    </tr>
+  </ng-template>
+</p-table>

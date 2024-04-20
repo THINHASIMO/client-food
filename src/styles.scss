@@ -56,6 +56,8 @@ a img {
   cursor: pointer;
 }
 .text-banking {
+  padding-top: 18px;
+  padding-bottom: 6px;
   border-top:1px solid goldenrod;
   cursor: pointer;
 }
@@ -418,8 +420,9 @@ footer p {
 
 .text-effect {
   color: hsla(0, 0%, 0%, .9);
-  font-weight: 500;
-  font: normal 16px Varela Round, sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 18px;
   height: auto;
 }
 
@@ -433,4 +436,18 @@ footer p {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.p-rating .p-rating-item.p-rating-item-active .p-rating-icon {
+  color: darkorange;
+}
+tbody, td, tfoot, th, thead, tr {
+  border-color: inherit;
+  border-style: solid;
+  background-color: mistyrose;
+  border-width: 0;
+}
+.overflow-item-y {
+  max-height: 600px; 
+  overflow-y: scroll;
+  padding: 12px
 }
